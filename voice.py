@@ -4,13 +4,9 @@ import random
 import time
 import gettext
 import os
-#import pwnagotchi.ui.customd
-#from pwnagotchi.ui.customd import *
-#time.sleep(random.randint(3,5))
-#refresh()
+#if it works it works
 def se(va):
-        #import requests
-        #import json
+
 
     url = 'http://localhost:8666/api/v1/mesh/data'
     headers = {'Content-Type': 'application/json'}
@@ -27,7 +23,6 @@ def write1(d):
 class Voice:
 #    os.system("python3 /usr/local/lib/python3.7/dist-packages/pwnagotchi/ui/1602.py")
 #    os.system("python3 /usr/local/lib/python3.7/dist-packages/pwnagotchi/ui/customd.py")
-#    print("WOOOOOOOOOOOOOO")
     def __init__(self, lang):
         print("H")
         localedir = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'locale')
