@@ -1,4 +1,4 @@
-
+#some quick script i made, dont ask me about it :/
 #import state import view
 import driver
 import random
@@ -125,7 +125,6 @@ while(True):
 
 
 #      time.sleep(random.uniform(5.111,7.999))
-#      write("xuehuapiaopiaobeifo")
 #      time.sleep(random.uniform(5.111,7.999))
 
 """
