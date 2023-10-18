@@ -32,7 +32,7 @@ WantedBy=multi-user.target
 
 
 Then run:
-sudo systemctl enable 1602disp.service'
+sudo systemctl enable 1602disp.service
 Then start it with:
 sudo systemctl start 1602disp.service
 Now it'll run on boot! Enjoy!
